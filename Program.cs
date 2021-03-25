@@ -11,17 +11,23 @@ namespace MacorattiCSharp
             while (continuar)
             {
                 Console.WriteLine("Qual nº da aula que deseja executar?");
-                int aula;
-                int.TryParse(Console.ReadLine(), out aula);
+                int exercicio;
+                int.TryParse(Console.ReadLine(), out exercicio);
                 Console.Clear();
-                switch (aula)
+                switch (exercicio)
                 {
+                    case 1:
+                        Aula02.Exercicio01();
+                        break;
+
                     case 2:
-                        Aula02.Aula();
+                        Aula02.Exercicio02();
                         break;
 
                     case 3:
-                    //Aula03.Aula();
+                        //Aula02.Exercicio01();
+                        break;
+
                     default:
                         continuar = false;
                         break;
