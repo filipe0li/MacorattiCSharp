@@ -28,6 +28,9 @@ namespace MacorattiCSharp
                         Aula02.Exercicio03();
                         break;
 
+                    case 4:
+                        Aula03.Exercicio04();
+                        break;
                     default:
                         continuar = false;
                         break;
