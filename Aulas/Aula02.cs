@@ -10,14 +10,14 @@ namespace MacorattiCSharp.Aulas
             int y;
 
             x = 100;
-            Console.WriteLine("x contém o valor = " + x);
+            Console.WriteLine($"x contém o valor = {x}.");
 
             y = x / 2;
             x = y + 100;
 
-            Console.WriteLine("y contém o valor de x / 2 = " + y);
+            Console.WriteLine($"y contém o valor de x / 2 = {x}.");
 
-            Console.WriteLine("x contém o valor de y + 100 = " + x);
+            Console.WriteLine($"x contém o valor de y + 100 = {x}.");
         }
         internal static void Exercicio02()
         {
@@ -25,12 +25,24 @@ namespace MacorattiCSharp.Aulas
              * Calcula área do circulo A = PI * Raio * Raio
              * Autor Filipe
              */
+
             float raioCirculo, areaCirculo;
             const float VALORPI = 3.1416F;
             raioCirculo = 10.0F;
             areaCirculo = (raioCirculo * raioCirculo * VALORPI);
 
-            Console.WriteLine($"A área do circulo de raio {raioCirculo} é {areaCirculo}");
+            Console.WriteLine($"A área do circulo de raio {raioCirculo} é {areaCirculo}.");
+        }
+        internal static void Exercicio03()
+        {
+            string primeiroNome = "Filipe";
+            string sobrenome = "Barbosa";
+
+            int a = 10;
+            int b = 40;
+
+            Console.WriteLine($"O seu nome completo é {primeiroNome} {sobrenome}.");
+            Console.WriteLine($"{a} + {b} = {a + b}.");
         }
     }
 }

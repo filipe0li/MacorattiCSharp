@@ -25,7 +25,7 @@ namespace MacorattiCSharp
                         break;
 
                     case 3:
-                        //Aula02.Exercicio01();
+                        Aula02.Exercicio03();
                         break;
 
                     default:
