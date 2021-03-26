@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula03
     {
-        internal static void Exercicio04()
+        internal static void Exercicio01()
         {
             int valor;
             int? valorNull = null;
@@ -22,18 +22,18 @@ namespace MacorattiCSharp.Aulas
 
             Console.WriteLine(valor);
 
-            string nome = null;
-            int? valor1 = null;
+            //string nome = null;
+            //int? valor1 = null;
 
             // Forma não abreviada de um Nullable:
-            Nullable<int> valor2 = null;
+            //Nullable<int> valor2 = null;
 
-            double? valor3 = 3.14;
-            bool? valor4 = null;
-            char? valor5 = 'A';
-            int?[] array = new int?[10];
+            //double? valor3 = 3.14;
+            //bool? valor4 = null;
+            //char? valor5 = 'A';
+            //int?[] array = new int?[10];
         }
-        internal static void Exercicio05()
+        internal static void Exercicio02()
         {
             int? valor = 100;
             int valInt = (int)valor;

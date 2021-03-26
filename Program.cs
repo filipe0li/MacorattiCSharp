@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MacorattiCSharp.Aulas;
 
 namespace MacorattiCSharp
@@ -7,39 +8,17 @@ namespace MacorattiCSharp
     {
         static void Main()
         {
-            bool continuar = true;
-            while (continuar)
-            {
-                Console.WriteLine("Qual nº da aula que deseja executar?");
-                int exercicio;
-                int.TryParse(Console.ReadLine(), out exercicio);
-                Console.Clear();
-                switch (exercicio)
-                {
-                    case 1:
-                        Aula02.Exercicio01();
-                        break;
+            var central = new Dictionary<string, Action>();
+            central.Add("Variaveis e Tipos - Variáveis - Ex01", Aula02.Exercicio01);
+            central.Add("Variaveis e Tipos - Área do circulo - Ex02", Aula02.Exercicio02);
+            central.Add("Variaveis e Tipos - Nome completo - Ex03", Aula02.Exercicio03);
 
-                    case 2:
-                        Aula02.Exercicio02();
-                        break;
-
-                    case 3:
-                        Aula02.Exercicio03();
-                        break;
-
-                    case 4:
-                        Aula03.Exercicio04();
-                        break;
-
-                    case 5:
-                        Aula03.Exercicio05();
-                        break;
-                    default:
-                        continuar = false;
-                        break;
-                }
-            }
+            // Aula03
+            central.Add("Nullable Types - Nullable - Ex01", Aula03.Exercicio01);
+            central.Add("Nullable Types - Nullable - Ex02", Aula03.Exercicio02);
+            
+            CentralExercicios.SelecionarEExecutar(central);
+            Console.Write("Pressione qualquer tecla para continuar. . . "); Console.ReadLine();
         }
     }
 }
