@@ -31,6 +31,10 @@ namespace MacorattiCSharp
                     case 4:
                         Aula03.Exercicio04();
                         break;
+
+                    case 5:
+                        Aula03.Exercicio05();
+                        break;
                     default:
                         continuar = false;
                         break;
