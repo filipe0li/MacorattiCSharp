@@ -18,8 +18,14 @@ namespace MacorattiCSharp
             Console.Write("Digite o número (ou vazio para o último)? ");
             int num = 0;
             int.TryParse(Console.ReadLine(), out num);
-            bool numValido = num > 0 && num <= exercicios.Count;
-            num = numValido ? num - 1 : exercicios.Count - 1;
+            if (num > 0 && num <= exercicios.Count)
+            {
+                num--;
+            }
+            else
+            {
+                num = exercicios.Count - 1;
+            }
             KeyValuePair<string, Action> exercicioSelecionado = exercicios.ElementAt(num);
 
             Console.Clear();
@@ -45,7 +51,7 @@ namespace MacorattiCSharp
             {
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Ocorreu um erro: {0}", ex.Message);
+                Console.WriteLine($"Ocorreu um erro: {ex.Message}");
                 Console.ResetColor();
                 Console.WriteLine(ex.StackTrace);
             }

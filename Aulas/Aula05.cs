@@ -70,5 +70,50 @@ namespace MacorattiCSharp.Aulas
                 }
             }
         }
+        internal static void Exercicio02()
+        {
+            int numero = 10;
+            switch (numero)
+            {
+                case 0:
+                    Console.WriteLine("O nº digitado foi Zero");
+                    break;
+                case 1:
+                    Console.WriteLine("O nº digitado foi Um");
+                    break;
+                default:
+                    Console.WriteLine("O nº não corresponde a um 'CASE'");
+                    break;
+            }
+            string carro = null;
+            string fabrica = null;
+
+            Console.Write("Digite a marca do seu carro: ");
+            carro = Console.ReadLine();
+
+            switch (carro.ToLower())
+            {
+                case "civic":
+                case "fit":
+                case "city":
+                    fabrica = "Honda";
+                    break;
+                case "focus":
+                case "fiesta":
+                    fabrica = "Ford";
+                    break;
+                case "corolla":
+                    fabrica = "Toyota";
+                    break;
+                case "chevette":
+                    fabrica += " Mas você sempre sonhou em ter um Chevette.";
+                    break;
+                default:
+                    fabrica = "Desconhecida!";
+                    // Desvio goto:
+                    goto case "chevette";
+            }
+            Console.WriteLine($"A fabricante do seu carro é: {fabrica}.");
+        }
     }
 }
