@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula05
     {
-        internal static void Exercicio01()
+        internal static void Exercicio()
         {
             bool valor = true;
             // Indiretamente: valor == true
@@ -69,11 +69,9 @@ namespace MacorattiCSharp.Aulas
                     Console.WriteLine($"O nº digitado foi {numero}");
                 }
             }
-        }
-        internal static void Exercicio02()
-        {
-            int numero = 10;
-            switch (numero)
+
+            int numero0 = 10;
+            switch (numero0)
             {
                 case 0:
                     Console.WriteLine("O nº digitado foi Zero");

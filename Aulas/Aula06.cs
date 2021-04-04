@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula06
     {
-        internal static void Exercicio01()
+        internal static void Exercicio()
         {
             // goto – origem dos comandos de repetição (herança do código espagueti) não recomendado:
             int a = 0;

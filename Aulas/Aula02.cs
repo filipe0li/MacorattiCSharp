@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula02
     {
-        internal static void Exercicio01()
+        internal static void Exercicio()
         {
             int x;
             int y;
@@ -18,9 +18,7 @@ namespace MacorattiCSharp.Aulas
             Console.WriteLine($"y contém o valor de x / 2 = {x}.");
 
             Console.WriteLine($"x contém o valor de y + 100 = {x}.");
-        }
-        internal static void Exercicio02()
-        {
+
             /*
              * Calcula área do circulo A = PI * Raio * Raio
              * Autor Filipe
@@ -32,9 +30,7 @@ namespace MacorattiCSharp.Aulas
             areaCirculo = (raioCirculo * raioCirculo * VALORPI);
 
             Console.WriteLine($"A área do circulo de raio {raioCirculo} é {areaCirculo}.");
-        }
-        internal static void Exercicio03()
-        {
+
             string primeiroNome = "Filipe";
             string sobrenome = "Barbosa";
 

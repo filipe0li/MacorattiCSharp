@@ -6,13 +6,13 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula04
     {
-        internal static void Exercicio01()
+        internal static void Exercicio()
         {
             var i = 5;
             Console.WriteLine(i.GetType());
 
-            var nome = "Filipe";
-            Console.WriteLine(nome.GetType());
+            var nome0 = "Filipe";
+            Console.WriteLine(nome0.GetType());
 
             /*
              * Não é Possivel converter um tipo int em string, pois var não siguinifica valor variavel!
@@ -27,9 +27,7 @@ namespace MacorattiCSharp.Aulas
 
             var lista = new List<int>();
             Console.WriteLine(lista.GetType());
-        }
-        internal static void Exercicio02()
-        {
+
             string[] nomes = { "Filipe", "Thamara" };
             IEnumerable<string> consulta = from nome in nomes
                                            where nome[0] == 'F'

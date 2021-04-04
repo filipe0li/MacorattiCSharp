@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula03
     {
-        internal static void Exercicio01()
+        internal static void Exercicio()
         {
             int valor;
             int? valorNull = null;
@@ -32,12 +32,10 @@ namespace MacorattiCSharp.Aulas
             //bool? valor4 = null;
             //char? valor5 = 'A';
             //int?[] array = new int?[10];
-        }
-        internal static void Exercicio02()
-        {
-            int? valor = 100;
-            int valInt = (int)valor;
-            Console.WriteLine(valor);
+
+            int? valor1 = 100;
+            int valInt = (int)valor1;
+            Console.WriteLine(valor1);
 
             DateTime? dataNascimento = null;
             //dataNascimento = new DateTime(1991, 08, 08);
