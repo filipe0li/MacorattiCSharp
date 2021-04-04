@@ -26,6 +26,9 @@ namespace MacorattiCSharp
             // Aula05
             central.Add("A5-Ex01=> Conrtrole de Fluxo - if, else if, else", Aula05.Exercicio01);
             central.Add("A5-Ex02=> Conrtrole de Fluxo - switch", Aula05.Exercicio02);
+            
+            // Aula06
+            central.Add("A6-Ex01=> Estruturas de Repeticao - While, do/While, for e foreach", Aula06.Exercicio01);
 
             CentralExercicios.SelecionarEExecutar(central);
             Console.Write("Pressione qualquer tecla para encerrar o programa. . .");
