@@ -11,24 +11,22 @@ namespace MacorattiCSharp
             var central = new Dictionary<string, Action>();
 
             // Aula02
-            central.Add("A2-Ex01=> Variaveis e Tipos - Variáveis", Aula02.Exercicio01);
-            central.Add("A2-Ex02=> Variaveis e Tipos - Área do circulo", Aula02.Exercicio02);
-            central.Add("A2-Ex03=> Variaveis e Tipos - Nome completo", Aula02.Exercicio03);
+            central.Add("A2=> Variaveis e Tipos - Variáveis", Aula02.Exercicio);
 
             // Aula03
-            central.Add("A3-Ex01=> Nullable Types - Nullable", Aula03.Exercicio01);
-            central.Add("A3-Ex02=> Nullable Types - Nullable", Aula03.Exercicio02);
+            central.Add("A3=> Nullable Types - Nullable", Aula03.Exercicio);
             
             // Aula04
-            central.Add("A4-Ex01=> Variaveis Implicitas Tipadas - VAR", Aula04.Exercicio01);
-            central.Add("A4-Ex02=> Variaveis Implicitas Tipadas - VAR", Aula04.Exercicio02);
+            central.Add("A4=> Variaveis Implicitas Tipadas - VAR", Aula04.Exercicio);
 
             // Aula05
-            central.Add("A5-Ex01=> Conrtrole de Fluxo - if, else if, else", Aula05.Exercicio01);
-            central.Add("A5-Ex02=> Conrtrole de Fluxo - switch", Aula05.Exercicio02);
+            central.Add("A5=> Conrtrole de Fluxo - if, else if, else e switch", Aula05.Exercicio);
             
             // Aula06
-            central.Add("A6-Ex01=> Estruturas de Repeticao - While, do/While, for e foreach", Aula06.Exercicio01);
+            central.Add("A6=> Estruturas de Repeticao - While, do/While, for e foreach", Aula06.Exercicio);
+
+            // Aula07
+            central.Add("A7=> Switch case", Aula07.Exercicio);
 
             CentralExercicios.SelecionarEExecutar(central);
             Console.Write("Pressione qualquer tecla para encerrar o programa. . .");
