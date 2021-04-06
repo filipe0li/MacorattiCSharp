@@ -2,15 +2,12 @@
 
 namespace MacorattiCSharp.Aulas
 {
-    enum Volume
-    {
-        Baixo,
-        Medio,
-        Alto,
-        Indefinido
-    }
     class Aula07
     {
+        enum Volume
+        {
+            Baixo, Medio, Alto, Indefinido
+        }
         internal static void Exercicio()
         {
             Console.Write("Digite um número: ");

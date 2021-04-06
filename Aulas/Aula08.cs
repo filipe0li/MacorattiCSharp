@@ -1,5 +1,4 @@
-﻿kusing System;
-kusing System;
+﻿using System;
 
 namespace MacorattiCSharp.Aulas
 {
