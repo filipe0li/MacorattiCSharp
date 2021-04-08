@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula05
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             bool valor = true;
             // Indiretamente: valor == true

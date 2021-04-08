@@ -8,7 +8,7 @@ namespace MacorattiCSharp.Aulas
         {
             Baixo, Medio, Alto, Indefinido
         }
-        internal static void Exercicio()
+        internal static void Aula()
         {
             Console.Write("Digite um número: ");
             int.TryParse(Console.ReadLine(), out int numero);

@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula03
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             int valor;
             int? valorNull = null;

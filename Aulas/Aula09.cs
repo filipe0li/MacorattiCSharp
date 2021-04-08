@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula09
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             int numero1, numero2, numero3, menorNumero;
             string letra = "";

@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula11
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             // Operadores aritiméticos: +, -, *, / e %
             int a = 10;
@@ -18,11 +18,17 @@ namespace MacorattiCSharp.Aulas
             resultado = a * b;
             Console.WriteLine($"A multiplicação de A: {a} * B: {b} = {resultado}.");
 
-            resultado = a / b;
-            Console.WriteLine($"A divisão de A: {a} / B: {b} = {resultado}.");
-
-            resultado = a % b;
-            Console.WriteLine($"O resto de A: {a} % B: {b} = {resultado}.");
+            if (b != 0)
+            {
+                resultado = a / b;
+                Console.WriteLine($"A divisão de A: {a} / B: {b} = {resultado}.");
+                resultado = a % b;
+                Console.WriteLine($"O resto de A: {a} % B: {b} = {resultado}.");
+            }
+            else
+            {
+                Console.WriteLine("Impossível dividir por 0.");
+            }
 
             double elevado = Math.Pow(a, b);
             Console.WriteLine($"A: {a} elevado a B: {b} = {elevado}.");
@@ -102,14 +108,14 @@ namespace MacorattiCSharp.Aulas
             }
 
             d = 0;
-            // Como d = 0, a segunda condição não será verificada, pois é impossvel uma divisão por 0, isto causa uma exception.
+            // Como d = 0, a segunda condição não será verificada, pois é impossível uma divisão por 0, isto causa uma exception.
             if (d != 0 && (n % d) == 0)
             {
                 Console.WriteLine($"{d} é o tator de {n}.");
             }
             else
             {
-                Console.WriteLine("Não avaliou o segundo termo, como prova, é impossivel dividir por 0.");
+                Console.WriteLine("Não avaliou o segundo termo, como prova, é impossível dividir por 0.");
             }
 
             // Operador &, verifica todas condições.
@@ -121,7 +127,7 @@ namespace MacorattiCSharp.Aulas
                     Console.WriteLine($"{d} é o tator de {n}.");
                 }
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Avaliou o segundo termo e causou uma divisão por 0.\nNão vai executar.\n{ex.Message}");
             }

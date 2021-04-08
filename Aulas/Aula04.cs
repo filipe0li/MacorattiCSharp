@@ -6,7 +6,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula04
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             var i = 5;
             Console.WriteLine(i.GetType());

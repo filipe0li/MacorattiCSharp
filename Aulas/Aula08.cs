@@ -23,7 +23,7 @@ namespace MacorattiCSharp.Aulas
     }
     class Aula08
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             int a = 1234567;
             double b = a; // Conversão implícita, sem perca de precisão.

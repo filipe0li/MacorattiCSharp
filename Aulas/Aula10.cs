@@ -23,7 +23,7 @@ namespace MacorattiCSharp.Aulas
             Repouso = 10,
             Processsando = Ligado + 10
         }
-        internal static void Exercicio()
+        internal static void Aula()
         {
             var dia = DiaSemana.Domingo;
             Console.WriteLine($"Hoje é dia: {dia}.");

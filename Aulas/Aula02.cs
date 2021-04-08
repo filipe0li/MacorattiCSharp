@@ -4,7 +4,7 @@ namespace MacorattiCSharp.Aulas
 {
     class Aula02
     {
-        internal static void Exercicio()
+        internal static void Aula()
         {
             int x;
             int y;
