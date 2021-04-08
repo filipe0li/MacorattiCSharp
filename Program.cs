@@ -30,7 +30,9 @@ namespace MacorattiCSharp
             central.Add("A10=> Enum", Aula10.Aula);
             // Aula11
             central.Add("A11=> Operadores", Aula11.Aula);
-
+            // Exercício01
+            central.Add("E01=> Exercicio01", Exercicio01.Exercicio);
+            
             CentralExercicios.SelecionarEExecutar(central);
             Console.Write("Pressione qualquer tecla para encerrar o programa. . .");
             Console.ReadKey();
