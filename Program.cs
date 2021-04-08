@@ -32,9 +32,11 @@ namespace MacorattiCSharp
             central.Add("A11=> Operadores", Aula11.Aula);
             // Exercício01
             central.Add("E01=> Exercicio01", Exercicio01.Exercicio);
+            // Aula12
+            central.Add("A11=> Arrays", Aula12.Aula);
             
             CentralExercicios.SelecionarEExecutar(central);
-            Console.Write("Pressione qualquer tecla para encerrar o programa. . .");
+            Console.Write("\nPressione qualquer tecla para encerrar o programa. . .");
             Console.ReadKey();
             Console.Clear();
         }
