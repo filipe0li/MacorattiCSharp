@@ -33,8 +33,10 @@ namespace MacorattiCSharp
             // Exercício01
             central.Add("E01=> Exercicio01", Exercicio01.Exercicio);
             // Aula12
-            central.Add("A11=> Arrays", Aula12.Aula);
-            
+            central.Add("A12=> Arrays", Aula12.Aula);
+            // Aula13
+            central.Add("A13=> Namespace", Aula13.Aula);
+
             CentralExercicios.SelecionarEExecutar(central);
             Console.Write("\nPressione qualquer tecla para encerrar o programa. . .");
             Console.ReadKey();

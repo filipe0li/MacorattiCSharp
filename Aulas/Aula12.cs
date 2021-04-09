@@ -2,7 +2,7 @@ using System;
 
 namespace MacorattiCSharp.Aulas
 {
-    public class Aula12
+    class Aula12
     {
         internal static void Aula()
         {
